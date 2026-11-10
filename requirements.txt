@@ -1,0 +1,7 @@
+# 테스트한 버전 기준 (2026-11): streamlit 1.58.0, openai 3.2.0, python-dotenv 1.2.1, Pillow 12.3.0
+# width="stretch", [theme.light]/[theme.dark] 등 최신 Streamlit 기능을 사용하므로 하한을 둔다.
+# 메이저 버전 업데이트로 인한 호환성 깨짐을 막기 위해 상한도 둔다.
+streamlit>=1.58,<2
+openai>=3.2,<4
+python-dotenv>=1.0,<2
+Pillow>=12.0,<13
