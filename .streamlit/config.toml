@@ -1,0 +1,29 @@
+# 전통 관상가 컨셉 테마: 한지(배경) · 먹(글자) · 붉은 낙관(강조색)
+
+[server]
+# 서버 업로드 한도(MB). 이 값을 넘으면 브라우저에서 아무 설명 없이 차단되므로,
+# app.py의 실제 한도(MAX_FILE_BYTES = 5MB)보다 넉넉하게 두어 5~10MB 파일은 앱의 한국어 안내가 보이게 한다.
+maxUploadSize = 10
+
+[theme]
+font = "Noto Sans KR:https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap, sans-serif"
+headingFont = "Noto Serif KR:https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700;900&display=swap, serif"
+headingFontWeights = [900, 700, 700, 700, 600, 600]
+baseRadius = "medium"
+showWidgetBorder = true
+
+[theme.light]
+primaryColor = "#B23A2E"
+backgroundColor = "#F7F1E3"
+secondaryBackgroundColor = "#EDE3CD"
+textColor = "#2B2622"
+borderColor = "#D6C7A8"
+linkColor = "#9A2F24"
+
+[theme.dark]
+primaryColor = "#E0604F"
+backgroundColor = "#1B1815"
+secondaryBackgroundColor = "#2A2520"
+textColor = "#EDE4D3"
+borderColor = "#433A31"
+linkColor = "#F08A7C"
